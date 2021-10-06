@@ -26,4 +26,8 @@ wipe: key(backspace)
 	insert("  ") 
 	key(left)
 slap: edit.line_insert_down()
-
+# my custom commands
+stamp: edit.paste()
+smash:
+	edit.extend_line_start()
+	key(backspace)
