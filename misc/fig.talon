@@ -28,6 +28,9 @@ fig diff from : "hg diff --from "
 ^fig prune$: "hg prune "
 ^fig drop$: "hg cls-drop --prune -c "
 ^fig help$: "hg help\n"
+^fig revert everything$: "hg revert -r p4base --all"
+^fig revert file$: "hg revert -r p4base "
 
 # Other related keywords
 ^peeforhead$: "p4head"
+
