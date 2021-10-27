@@ -3,3 +3,5 @@ __pycache__
 *.sw?
 # Locally generated
 /settings
+**/.DS_Store
+misc/personal/*
