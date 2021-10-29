@@ -14,6 +14,7 @@ extendCommands = []
 # to run two at the same time and switch between them.
 # Note that MPS and IntelliJ ultimate will conflict...
 port_mapping = {
+    "com.google.Chrome.app.nmilkgiandambpnobkojonbkfhdkcjfo": 8653,
     "com.google.android.studio": 8652,
     "com.jetbrains.AppCode": 8655,
     "com.jetbrains.CLion": 8657,
@@ -114,6 +115,8 @@ mod = Module()
 
 mod.apps.jetbrains = "app.name: /jetbrains/"
 mod.apps.jetbrains = "app.name: IntelliJ IDEA"
+mod.apps.jetbrains = "app.name: IntelliJ UE (stable)"
+mod.apps.jetbrains = "app.name: Projector Web Client"
 mod.apps.jetbrains = "app.name: PyCharm"
 mod.apps.jetbrains = "app.name: WebStorm"
 mod.apps.jetbrains = "app.name: RubyMine"
